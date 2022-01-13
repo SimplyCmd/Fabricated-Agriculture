@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "fabricated_agriculture",
   "version": "${version}",
 
-  "name": "Mod Name",
-  "description": "wow mod thats incredible i love mods!",
+  "name": "Fabricated Agriculture",
+  "description": "Project Fabricated: Everything animals, plants, and food related",
   "authors": [
     {
       "name": "SimplyCmd",
@@ -19,19 +19,19 @@
   },
 
   "license": "MIT",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/fabricated_agriculture/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "simplycmd.modid.Main"
+      "simplycmd.fabricated_agriculture.Main"
     ],
     "client": [
-      "simplycmd.modid.Main"
+      "simplycmd.fabricated_agriculture.Main"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "fabricated_agriculture.mixins.json"
   ],
 
   "depends": {

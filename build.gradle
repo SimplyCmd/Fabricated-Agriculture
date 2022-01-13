@@ -17,6 +17,13 @@ repositories {
             includeGroup "curse.maven"
         }
     }
+	maven {
+        name = "Modrinth"
+        url = "https://api.modrinth.com/maven"
+        content {
+            includeGroup "maven.modrinth"
+        }
+    }
     maven { url 'https://storage.googleapis.com/devan-maven/' }
 	maven {
 		name = "Gegy's Maven"
@@ -35,6 +42,7 @@ dependencies {
 
 	include modImplementation("curse.maven:featherlib-525225:${project.featherlib_version}")
 	include modImplementation("net.devtech:arrp:${project.arrp_version}")
+	include modImplementation("maven.modrinth:fishing:${project.fishing_version}")
 
 	modRuntimeOnly ("supercoder79:databreaker:${databreaker_version}") {
 		exclude module: "fabric-loader"
