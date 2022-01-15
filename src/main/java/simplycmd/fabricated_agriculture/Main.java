@@ -12,7 +12,7 @@ public class Main implements ModInitializer, ClientModInitializer {
 	@Override
 	public void onInitialize() {
 		Entities.register();
-		LOGGER.info(MOD_ID + " activated :O");
+		LOGGER.info(MOD_ID + " has been activated :D");
 	}
 
 	@Override
